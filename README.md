@@ -6,8 +6,8 @@ Sample project for realtime-connection between client and server.
 ## Pre-requisites
 
 	```bash
-	# Install latest dotnet (at this time, we use 6.0)
-	Install from official site: https://dotnet.microsoft.com/en-us/download
+	# Install latest dotnet (at this time, we use dotnet 6.0)
+	Install from: https://dotnet.microsoft.com/en-us/download
 	```
 
 
