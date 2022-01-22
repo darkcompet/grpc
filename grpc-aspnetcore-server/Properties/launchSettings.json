@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "grpc-aspnetcore-server": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:10080;http://localhost:10081",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
