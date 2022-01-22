@@ -1,6 +1,18 @@
 # GRPC
 
-Sample project for realtime-connection between client and server.
+Sample project for realtime-connection between client and server via gRPC in C#.
+
+Note: grpc.core is going to be not supported more, and grpc-dotnet is a recommended
+replacement for C#.
+
+- At server, we use `grpc.aspnetcore`.
+- At client, we use `grpc.net.client`.
+
+By default, gRPC uses `protobuf` to share interface (methods, models), so that various languages
+can call each other. But if we only use C# for projects, we don't need define that protocol, right?
+
+By such that, `https://github.com/protobuf-net/protobuf-net` was borned for C#.
+For gRPC, we should use `https://github.com/protobuf-net/protobuf-net.Grpc` instead, which is based on above lib.
 
 
 ## Pre-requisites
